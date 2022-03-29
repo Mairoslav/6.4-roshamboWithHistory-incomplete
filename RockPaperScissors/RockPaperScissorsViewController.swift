@@ -92,20 +92,20 @@ class RockPaperScissorsViewController: UIViewController {
         
         //TODO: Present HistoryViewController
         
-        /*
+        
         let controller = storyboard?.instantiateViewController(withIdentifier: "HistoryViewController") as! HistoryViewController
         
         controller.history = history
         
         present(controller, animated: true, completion: nil)
-        */
         
+        /*
         let storyboard = self.storyboard
         let controller = storyboard?.instantiateViewController(withIdentifier: "HistoryViewController") as! HistoryViewController
         
         controller.history = self.history
         
         self.present(controller, animated: true, completion: nil)
-        
+        */
     }
 }
